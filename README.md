@@ -1,7 +1,7 @@
 # Selenium New Project Guide
 
 ## Background:
-When I first started learning Selenium, I faced similar challenges. Existing beginner guides often left gaps in their explanations, assuming prior knowledge or skipping steps. This motivated me to create a guide that fills those gaps and provides a comprehensive learning guide.
+ with the installation and setup process. Existing beginner guides often assumed prior knowledge or skipped over essential steps. This inspired me to create a comprehensive learning guide that focuses on installing the prerequisites for Selenium. My aim is to provide step-by-step instructions and clear explanations, ensuring that beginners can easily set up their environment and get started with Selenium without any hurdles.
 
 ## Operating System: macOS
 ## Web Browser: Google Chrome
