@@ -5,6 +5,7 @@ When I first started learning Selenium, I faced similar challenges. Existing beg
 
 ## Operating System: macOS
 ## Web Browser: Google Chrome
+<br/>
 
 ## Getting Started
 
@@ -31,6 +32,7 @@ When I first started learning Selenium, I faced similar challenges. Existing beg
 
 4. Install the Selenium package:
 ```pip install selenium```
+<br/><br/>
 
 ### WEB DRIVER:
 #### Download ChromeDriver
@@ -52,5 +54,24 @@ https://chromedriver.storage.googleapis.com/index.html?path=```72.0.3626.69```
 4. You only need ```chromedriver```, figure out where to put it. I put it inside my project folder, other ppl put it elsewhere. Just make sure you know the path to the file because you will need it later.
 5. Make sure the web driver executable has the appropriate permissions to be executed
 ```chmod +x /path/to/chromedriver```
+<br/><br/>
 
+### WEBDRIVER-MANAGER - simplifies the management of WebDriver binaries for Selenium:
+- Install webdriver manager: 
+ ```pip install webdriver-manager```
+ <br/><br/><br/>
 
+*OPTIONAL: I wanted a live-server, so I did this step*
+### Live Server
+1. Go to https://nodejs.org and download ```Node.js```
+2. In VSCode terminal: ```sudo npm install -g nodemon\n```
+3. Set up live server: 
+- Activate: <br/>
+```nodemon --exec python <your_py_file>\n```
+- Quit: 
+Press <br/>
+```Ctrl + C``` in the terminal where nodemon is running
+<br/><br/>
+
+### Voila! This is what my starter code look like:
+![Starter Example](https://github.com/KZKS01/catcollector/assets/109245976/4f4e075e-15a2-4980-8352-74f48e33ad79)
